@@ -5,7 +5,7 @@ import '../Styles/home.css';
 const Home = () => {
   return (
     <div id="home">
-   <Wave 
+   {/* <Wave 
         className="wave"
         fill="#FFF6FF"
         paused={false}
@@ -15,7 +15,7 @@ const Home = () => {
           speed: 0.1,
           points: 5
         }}
-      />
+      /> */}
       
       <div className="intro">
           <div className="lefthome">
@@ -33,9 +33,18 @@ const Home = () => {
        </div>
       
       </div>
-      <div className="homedark">
+      <Wave
+        className="wave"
+        fill="#372b47"
+        paused={false}
+        options={{
+          height: 15,
+          amplitude: 45,
+          speed: 0.1,
+          points: 5
+        }}
+      />
       
-      </div>
 
 
      

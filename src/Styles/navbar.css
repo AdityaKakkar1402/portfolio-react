@@ -3,11 +3,11 @@
   /* background-color: bisque; */
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to right,#9C89B3 ,#372b47  );
+ background-color: #372b47;
   color: #fef7ff;
   width: 97%;
   position:fixed;
-  z-index: 5;
+  z-index: 300;
  
   
 

@@ -1,30 +1,19 @@
-.wave {
-    transform: rotate(180deg);
-    left: 0;
-  
-  }
+.wave{
+  top: 65vh;
+  position: relative;
+  z-index: 100;
+  height: 35vh;
+}
+
+
  
-  .homedark{
-    font-size: 4rem;
-    position: absolute;
-    top: 60vh;
-    background-image: linear-gradient(to right, #372b47, #9C89B3 );
-    z-index: -1;
-    width: 100vw;
-    height: 40vh;
-  }
-
-  #home .wave {
-    height: 80vh;
-    margin: 0;
-
-  }
   .intro{
       position: absolute;
       top: 50vh;
       left: 50%;
       transform: translate(-50%, -50%);
       display: flex;
+      z-index: 100;
       
 
   }
@@ -100,6 +89,12 @@
    
 
     
+  }
+  .wave{
+    top: 65vh;
+    position: relative;
+    z-index: 0;
+    height: 55vh;
   }
  
   .homeline1{
