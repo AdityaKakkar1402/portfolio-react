@@ -1,0 +1,188 @@
+.navbar-body{
+  padding: 1vh 5vh;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right,#9C89B3 ,#372b47  );
+  color: #fef7ff;
+  width: 97%;
+  position:fixed;
+  z-index: 5;
+ 
+  
+
+}
+.nav-title{
+    font-size: 2.2rem;
+    font-weight: 300;
+    font-family: 'Eczar', serif;
+    color: #fef7ff;
+
+    
+
+    
+}
+.nav-title:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient( #8b75f0,#f8d3e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+.navitems{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+
+    
+
+}
+
+.navitem{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 4vw;
+    transition: 0.5s;
+}
+.navitem:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient( #937DC2,#E8A0BF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navitem:active{
+    border-bottom: 4px #937DC2 solid;
+    padding-bottom: 2px;
+}
+.navcontact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5vh;
+ 
+
+}
+
+.nav-button{
+    color: aliceblue;
+    background-image: linear-gradient(to right, #912291, #7748c9 );
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    border-radius: 12px;
+    transition: 0.5s;
+   
+    
+
+}
+.nav-button:hover{
+    cursor: pointer;
+    background-color: white;
+    background-image: none;
+    border: 2px solid #937DC2;
+    color: #937DC2;
+    padding: 3px 14px;
+    
+}
+
+
+@media (max-width:800px) {
+    .navbar-body{
+        padding: 1vh 5vh;
+        /* background-color: bisque; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+      
+      }
+      #lastnavitem{
+        display: block!important;
+    }
+
+
+      
+     
+      
+      .navitems{
+          flex-direction: column;
+          width: 100%;
+          height: 45vh;
+          background-color: #4C3A51;
+          opacity: 2;
+          justify-content: center;
+          position:fixed;
+          top: 7vh;
+          left: 100%;
+          transition:all .5s;
+          z-index: 5;
+        
+      }
+      #check:checked ~ .navitems{
+         
+          left: 0;
+          
+      }
+      
+      .navcontact{
+          display: none;
+        
+          
+      }
+      .navitem{
+          margin-bottom: 10px;
+          margin-left: -16%;
+          font-size: 1.7rem;
+          color: antiquewhite;
+      }
+
+      
+    
+
+      .navcontact{
+       
+          justify-content: center;
+       
+
+      }
+      .checkbtn{
+        font-size: 2.3rem;
+        display:grid;
+        align-items: center;
+        float: right;
+        cursor: pointer;
+        position: absolute;
+        right:12vh;
+        top: 2.2vh;
+        display:block!important;
+        color:#937DC2;
+    }
+    #check{
+       display: none;
+    }
+    /* /* .{
+        display: block!important;
+    } 
+      */
+    
+    
+    }
+
+   
+
+
+
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+#lastnavitem{
+    display: none;
+}
+
+
+

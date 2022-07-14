@@ -1,0 +1,134 @@
+.wave {
+    transform: rotate(180deg);
+    left: 0;
+  
+  }
+ 
+  .homedark{
+    font-size: 4rem;
+    position: absolute;
+    top: 60vh;
+    background-image: linear-gradient(to right, #372b47, #9C89B3 );
+    z-index: -1;
+    width: 100vw;
+    height: 40vh;
+  }
+
+  #home .wave {
+    height: 80vh;
+    margin: 0;
+
+  }
+  .intro{
+      position: absolute;
+      top: 50vh;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      
+
+  }
+  .lefthome{
+      display: flex;
+      width: 40vw;
+      flex-direction: column;
+  }
+  .righthome{
+    display: flex;
+    width: 40vw;
+    margin-top: -10%;
+    margin-left: 70px;
+   z-index: -1;
+
+    
+  }
+
+  
+  .homeline1{
+      font-size: 3.5rem;
+      color: #372B47;
+      margin-bottom: -35px;
+      font-family: 'Eczar', serif;
+      font-weight: 500;
+  }
+  .homeline2{
+    font-size: 3.5rem;
+    color: #9c89b3;
+   
+    font-weight: 700;
+    font-family: 'Eczar', serif;
+}
+.homeline3{
+    font-size: 1.2rem;
+    color: #372B47;
+    margin-bottom: 40px;
+    font-family: 'Work Sans', sans-serif;
+}
+.home-button{
+    color: aliceblue;
+    background-image: linear-gradient(to right, #912291, #7748c9 );
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    border-radius: 12px;
+    transition: 0.5s;
+   
+}
+.homebutton{
+    margin-top: 50px;
+}
+
+
+@media(max-width:900px){
+   .intro{
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       top: 70vh;
+   }
+   .lefthome{
+    width: 100vw;
+    
+   }
+   .righthome{
+    
+    width: 80vw;
+    margin-top: -10%;
+    padding-left:-20%;
+    margin-left: 25px;
+   
+
+    
+  }
+ 
+  .homeline1{
+    font-size: 2.7rem;
+    color: #372B47;
+    margin-bottom: -15px;
+    font-family: 'Eczar', serif;
+    font-weight: 500;
+}
+.homeline2{
+  font-size: 2.7rem;
+  color: #9c89b3;
+ 
+  font-weight: 700;
+  font-family: 'Eczar', serif;
+}
+.homeline3{
+  font-size: 1rem;
+  color: #372B47;
+  margin-bottom: -30px;
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
+.homedark{
+  
+  height: 59vh;
+}
+
+}
+  
