@@ -1,8 +1,8 @@
 .wave{
-  top: 65vh;
+  top: 70vh;
   position: relative;
   z-index: 100;
-  height: 35vh;
+  height: 30vh;
 }
 
 
@@ -153,14 +153,17 @@
   padding: 25px 10px;
 
 }
+.iconhomenav:hover{
+  color: #912291;
+}
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
 	.iconhomenav{
     position: relative;
-    top: 21.5vh;
+    top: 24vh;
     display: flex;
     font-size: 1.5rem;
-    color: white;
+    color: #372B47;
     padding: 25px 10px;
   
   }

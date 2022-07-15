@@ -39,9 +39,15 @@ const Home = () => {
       />
       
      <div className="lefthomenav">
+       <a href="https://github.com/AdityaKakkar1402">
      <span className="iconhomenav"><GoMarkGithub/></span>
+      </a>
+      <a href="https://www.linkedin.com/in/aditya-kakkar-77b077190/">
      <span className="iconhomenav"><BsLinkedin/></span>
+     </a>
+     <a href="https://twitter.com/ADITYA94722">
      <span className="iconhomenav"><AiFillTwitterCircle/></span>
+     </a>
      </div>
 
      
